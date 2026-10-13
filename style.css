@@ -26,9 +26,24 @@ img {
     width: 15%;
     height: 15%;
 }
-.college {
+.grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: auto auto;
-    gap: 12px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 2px;
+    img {
+        width: 50px;
+        height: 50px;
+    }
+    p {
+        font-size: x-large;
+        text-align: center;
+    }
+}
+.ap {
+    margin-left: max(1821px);
+    cursor: pointer;
+}
+#b1 {
+
 }
