@@ -2,6 +2,7 @@ body {
     background-color: rgb(28,69,135);
     color: white;
     font-size: large;
+    margin: 0;
 }
 a:visited {
     color: white;
@@ -41,9 +42,15 @@ img {
     }
 }
 .ap {
-    margin-left: max(1821px);
-    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    img {
+        cursor: pointer;
+    }
 }
-#b1 {
-
+.college {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
