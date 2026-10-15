@@ -55,6 +55,10 @@ img {
     align-items: center;
 }
 .sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
 }
 .carousel {
     display: flex;
@@ -78,5 +82,10 @@ img {
     justify-content: space-around;
 }
 #hamburger {
-    border: 100px white;
+    width: 30px;
+    height: 30px;
+    border: 1px white solid;
+    font-size: x-large;
+    margin-left: 5px;
+    text-align: center;
 }

@@ -6,11 +6,14 @@
     <link rel="stylesheet" href="style.css">
     <script src="index.js"></script>
 </head>
-<body>
+<body onload = "chooseimage();">
 <div class = "sidebar">
     <p id = "hamburger">≣</p>
+    <a href="#CSMP">Computer Science Magnet Program
+        Freehold High School</a>
 </div>
-<h1>Computer Science Magnet Program</h1>
+<div>
+<h1 id = "CSMP">Computer Science Magnet Program</h1>
 <p>The Computer Science Magnet Program is a rigorous four-year course of study designed for students who have an
     interest in computer science, technology, engineering, data, cybersecurity, and emerging fields such as artificial
     intelligence. The program provides students with the opportunity to develop a strong foundation in computer science
@@ -28,9 +31,9 @@
     development, discrete mathematics, artificial intelligence, and independent application of these skills.</p>
 <div class = "carousel">
     <div class = "arrows"><div class = "arrow" onclick = "carouselarrowleft();">←</div></div>
-    <img src="https://i.ytimg.com/vi/CxGSnA-RTsA/hqdefault.jpg">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC419YNLNoMlVD9UEzQbpVPLFnxwy7xSdbrMFJ4holrAcQeIO_OUa7HCfD&s=10">
-    <img src="https://wp-media.petersons.com/blog/wp-content/uploads/2018/01/26100309/blur-close-up-code-computer-546819.jpg">
+    <img id = "test1" src="https://i.ytimg.com/vi/CxGSnA-RTsA/hqdefault.jpg">
+    <img id = "test2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC419YNLNoMlVD9UEzQbpVPLFnxwy7xSdbrMFJ4holrAcQeIO_OUa7HCfD&s=10">
+    <img id = "test3" src="https://wp-media.petersons.com/blog/wp-content/uploads/2018/01/26100309/blur-close-up-code-computer-546819.jpg">
     <div class = "arrows"><div class = "arrow" onclick = "carouselarrowright();">→</div></div>
 </div>
 <h2>Courses Offered in the Program</h2>
@@ -214,6 +217,7 @@
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJcd0j6cZuOU96BIiXHm6exGPlpc9tQuOi9QVf4lo0Fg&s=10">
         <p>Yale University</p>
     </div>
+</div>
 </div>
 </body>
 </html>

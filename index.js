@@ -4,9 +4,45 @@ function apimg1() {
 function apimg2() {
     window.open("https://apstudents.collegeboard.org/courses/ap-computer-science-a", "_blank")
 }
+let num = 1;
+function chooseimage() {
+    if (num === 1) {
+        document.getElementById("test2").style.display = "none";
+        document.getElementById("test3").style.display = "none";
+        document.getElementById("test1").style.display = "block";
+    }
+    else if (num === 2) {
+        document.getElementById("test1").style.display = "none";
+        document.getElementById("test3").style.display = "none";
+        document.getElementById("test2").style.display = "block";
+    }
+    else if (num === 3) {
+        document.getElementById("test1").style.display = "none";
+        document.getElementById("test2").style.display = "none";
+        document.getElementById("test3").style.display = "block";
+    }
+}
 function carouselarrowleft() {
-//make one image and change the src to be different based on arrow clicked, 2.3.2
+    if (num === 1) {
+        num = 3;
+    }
+    else if (num === 2) {
+        num = 1;
+    }
+    else if (num === 3) {
+        num = 2;
+    }
+    chooseimage();
 }
 function carouselarrowright() {
-
+    if (num === 1) {
+        num = 2;
+    }
+    else if (num === 2) {
+        num = 3;
+    }
+    else if (num === 3) {
+        num = 1;
+    }
+    chooseimage();
 }
