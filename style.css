@@ -54,11 +54,33 @@ img {
     flex-direction: column;
     align-items: center;
 }
-.sidebar {
+#sidebar {
     display: flex;
     flex-direction: column;
     align-items: start;
     text-align: center;
+    background-color: gold;
+    color: black;
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    a:hover {
+        background-color: white;
+    }
+    a:visited {
+    color: black;
+}
+}
+#hamburger {
+    width: 30px;
+    height: 30px;
+    border: 1px black solid;
+    font-size: x-large;
+    margin-left: 5px;
+    text-align: center;
+    cursor: pointer;
+    color: black;
 }
 .carousel {
     display: flex;
@@ -80,12 +102,4 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-}
-#hamburger {
-    width: 30px;
-    height: 30px;
-    border: 1px white solid;
-    font-size: x-large;
-    margin-left: 5px;
-    text-align: center;
 }

@@ -46,3 +46,16 @@ function carouselarrowright() {
     }
     chooseimage();
 }
+function hamburgercolor() {
+    if (document.getElementById("sidebar").style.display === "flex") {
+        document.getElementById("hamburger").style.color = "white";
+        document.getElementById("hamburger").style.borderColor = "white";
+        document.getElementById("sidebar").style.display = "none";
+    }
+    else {
+        document.getElementById("hamburger").style.color = "black";
+        document.getElementById("hamburger").style.borderColor = "black";
+        document.getElementById("sidebar").style.display = "flex";
+
+    }
+}
